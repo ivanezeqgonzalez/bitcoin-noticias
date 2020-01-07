@@ -14,13 +14,13 @@ const Index = (props) => (
                 />
             </div>
             <div className="col-md-8">
-                <h2>Noticias sobre Bitcoin</h2>
+                <h2 className="my-4">Noticias sobre Bitcoin</h2>
                 <Noticias 
                     noticias={props.noticias}
                 />
             </div>
             <div className="col-md-4">
-                <h2>Próximos Eventos Bitcoin</h2>
+                <h2 className="my-4">Próximos Eventos Bitcoin</h2>
                 <Eventos />
             </div>
         </div>
